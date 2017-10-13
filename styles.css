@@ -1,0 +1,443 @@
+/*************************
+    Main
+**************************/
+
+body {
+    background-color: gainsboro;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 97%;
+    background-color: lightgray;
+}
+
+/*************************
+    Nav
+**************************/
+
+.top-nav-left > li > a,
+.top-nav-right > li > a {
+    color: gray;
+    font-size: .75em;
+}
+
+.top-nav-left,
+.top-nav-right {
+    height: 30px;
+    padding: 0;
+}
+
+.top {
+    overflow: auto;
+    width: 100%;
+}
+
+.top-nav-right {
+    float: right;
+}
+
+.top-nav-left {
+    float: left;
+}
+
+.bottom {
+    width: 50%;
+    margin-left: 220px;
+}
+
+#study {
+    color: black;
+    border-left: solid .25px gray;
+    border-right: solid .25px gray;
+    border-bottom: solid 3px orange;
+    font-size: .9em;
+}
+
+#research {
+    color: black;
+    border-right: solid .25px gray;
+    border-bottom: solid 3px red;
+    font-size: .9em;
+}
+
+#industry {
+    color: black;
+    border-right: solid .25px gray;
+    border-bottom: solid 3px gray;
+    font-size: .9em;
+}
+
+.bottom-nav > li > a {
+    height: 60px;
+    width: 192px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+
+.university {
+    background-color: black;
+    height: 60px;
+    text-align: center;
+    margin-right: 75px;
+}
+
+.university > h3 {
+    width: 200px;
+}
+
+#funnelback {
+    margin-bottom: 0;
+    color: white;
+    margin-top: 5px;
+}
+
+.fa-caret-down {
+    color: red;
+    font-size: .6em;
+}
+
+#university {
+    color: firebrick;
+    margin-left: 67px;
+    vertical-align: top;
+    line-height: 10px;
+}
+
+/*************************
+    Search
+**************************/
+
+.main {
+    background-color: firebrick;
+    color: white;
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.search {
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: solid 1px indianred;
+    overflow: auto;
+}
+
+.search .fa-search {
+    font-size: 1.69em;
+    padding-bottom: 10px;
+}
+
+.input {
+    float: left;
+}
+
+input[type="text"] {
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    background-color: firebrick;
+    color: white;
+    font-size: 1.69em;
+}
+
+input[type="submit"] {
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    outline: none;
+    border-radius: 10%;
+    width: 75px;
+    margin-left: 198px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+#powered {
+    font-size: .5em;
+    font-style: italic;
+    float: left;
+    color: indianred;
+    margin-top: 5px;
+    margin-left: 312px;
+
+}
+
+#options {
+    font-size: .65em;
+    float: right;
+    margin-top: 5px;
+    margin-right: 312px;
+}
+
+#shortlist,
+.fa-star-o {
+    color: gray;
+}
+
+#history,
+.fa-history {
+    color: mistyrose;
+}
+
+.fa-history {
+    margin-left: 20px;
+}
+
+.nav-tabs {
+    background-color: firebrick;
+    margin-top: 83px;
+    margin-left: 360px;
+}
+
+.nav-tabs > li > a {
+    color: white;
+    margin-right: 5px;
+    background-color: darkred;
+    font-size: .80em;
+}
+
+.nav-tabs > li > a:focus {
+    background-color: lightgray;
+    color: black;
+}
+
+/*************************
+    Results
+**************************/
+
+.results {
+    height: 100%;
+    padding-top: 25px;
+    width: 100%;
+    margin-left: 0;
+}
+
+#refine {
+    background-color: black;
+    color: white;
+    height: 35px;
+    font-size: .85em;
+    line-height: 34px;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+.result-type {
+    color: firebrick;
+    border-bottom: solid 1px gray;
+    background-color: white;
+    font-size: .75em;
+    font-weight: bold;
+    margin-top: 0;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#amount {
+    font-size: .75em;
+    color: gray;
+}
+
+.btn-group {
+    float: right;
+}
+
+.search-results .result-header {
+    background-color: rgb(238, 238, 238);
+}
+
+.search-results {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.url {
+    font-size: .65em;
+    margin-top: 0;
+    font-style: italic;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+.result-body {
+    background-color: white;
+    margin-top: -16px;
+    padding-left: 20px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.result-header {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.date {
+    color: gray;
+}
+
+.related {
+    background-color: lightgray;
+    width: 100%;
+    margin-left: 0;
+}
+
+.by {
+    background-color: white;
+    height: 200px;
+}
+
+#related-by {
+    color: firebrick;
+    font-size: 1.35em;
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+.by-title {
+    color: gray;
+    font-size: 1.25em;
+    margin-bottom: 5px;
+}
+
+.by-item {
+    font-size: 12px;
+    margin-left: 12px;
+    margin-bottom: 0;
+}
+
+.by-item a {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 182px;
+    margin-bottom: 30px;
+}
+
+#picture p {
+    text-shadow: 2px 2px 1px black;
+}
+
+#pic-overlay a {
+    color: white;
+    z-index: 100;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    font-size: 1.35em;
+    text-decoration: none;
+}
+
+.pagination li a {
+    background-color: white;
+    color: firebrick;
+}
+
+.pagination li a:focus,
+.pagination li a:hover {
+    background-color: firebrick;
+    color: white;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.refine-body {
+    color: black;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+.refine-number {
+    font-size: .75em;
+    font-weight: bold;
+    font-weight: lighter;
+    border: solid .25px rgb(238, 238, 238);
+    background-color: rgb(238, 238, 238);
+    border-radius: 25%;
+    padding: 0 4px;
+    position: absolute;
+    bottom: 0;
+    right: 7%;
+}
+
+.refine-item {
+    font-size: .95em;
+}
+
+.refine-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.refine-heading {
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+/*************************
+    Footer
+**************************/
+
+.footer {
+    background-color: black; 
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    padding-top: 0;
+    margin-left: 0;
+    width: 100%;
+}
+
+.footer-title {
+    font-size: .85em;
+    color: gray;
+    margin-top: 12px;
+    margin-left:50px;
+}
+
+.footer .footer-info a {
+    color: gray;
+}
+
+.footer-info {
+    font-size: .59em;
+    color: gray;
+    margin-left: 69px;
+    margin-bottom: 3px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+    color: gray;
+    font-size: 1.25em;
+    margin-right: 25px;
+}
+
+.fa-facebook {
+    margin-left: 69px;
+}
+
+
