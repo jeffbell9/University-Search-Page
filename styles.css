@@ -136,10 +136,6 @@ body {
     float: left;
 }
 
-.input {
-    float: left;
-}
-
 input[type="text"] {
     margin-left: 20px;
     border: none;
@@ -154,10 +150,8 @@ input[type="submit"] {
     outline: none;
     background-color: black;
     color: white;
-    outline: none;
     border-radius: 10%;
     width: 75px;
-    margin-left: 198px;
     margin-top: 5px;
     float: right;
 }
