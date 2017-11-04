@@ -12,22 +12,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <header class="top bg-inverse">
-                        <ul class="nav top-nav-left">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Jobs</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Newsroom</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Giving to FBU</a>
-                            </li>
-                        </ul>
-                        <ul class="nav top-nav-right">
+                    <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
+                        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <span class="navbar-text py-0">&nbsp;</span>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Jobs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Jobs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Newsroom</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Giving to FBU</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link" href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Alumni</a>
                                 </li>
@@ -40,60 +48,75 @@
                                 <li>
                                     <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                                 </li>
-                        </ul>
-                    </header>
-                    <div class="bottom">
-                        <ul class="nav bottom-nav">
-                            <li class="university"><h3 id="funnelback">funnelback<i class="fa fa-caret-down" aria-hidden="true"></i></h3><p id="university">university</p></li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="study" href="#">Study At FBU</a>
-                            </li>
-                            <li class="nav-item">
-                                    <a class="nav-link" id="research" href="#">Research & Innovation</a>
-                            </li>
-                            <li class="nav-item">
-                                    <a class="nav-link" id="industry" href="#">Industry & Community</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="main">
-                        <h3 id="title">Search Funnelback University</h3>
-                        <div class="search">
-                            <form action="#" id="input" class="input">
-                                <i class="fa fa-search" aria-hidden="true"></i>
-                                <input type="text" name="search" autocomplete="off">
-                                <input type="submit" form="input" value="Search">
-                            </form>
+                            </ul>
                         </div>
-                        <p id="powered">Search powered by Funnelback</p>
-                        <div id="options">
-                            <i class="fa fa-star-o" aria-hidden="true"></i>
-                            <span id="shortlist">Shortlist (0)</span>
-                            <i class="fa fa-history" aria-hidden="true"></i>
-                            <span id="history">History</span>
-                        </div>
-                        <ul class="nav nav-tabs">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fa fa-globe" aria-hidden="true"></i> All Results</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fa fa-file-text-o" aria-hidden="true"></i> Website</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Courses</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fa fa-users" aria-hidden="true"></i> People</a>
-                            </li>
-                            <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-share-alt" aria-hidden="true"></i> Social Media</a>
-                            </li>
-                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row bottom-nav">
+                <div class="university col-sm-3 col-md-3 col-lg-2 offset-lg-2"><h3 id="funnelback">funnelback<i class="fa fa-caret-down" aria-hidden="true"></i></h3><p id="university">university</p></div>
+                <div class="nav-item col-sm-3 col-md-3 col-lg-2 offset-lg-1">
+                    <a class="nav-link" id="study" href="#">Study At FBU</a>
+                </div>
+                <div class="nav-item col-sm-3 col-md-3 col-lg-2">
+                        <a class="nav-link" id="research" href="#">Research & Innovation</a>
+                </div>
+                <div class="nav-item col-sm-3 col-md-3 col-lg-2">
+                        <a class="nav-link" id="industry" href="#">Industry & Community</a>
+                </div>
+            </div>
+        </div>
+        <div class="container main">
+            <div class="row">
+                <div class="col-12">
+                    <h3 id="title">Search Funnelback University</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="search col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                    <form action="#" id="input" class="input">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="text" name="search" autocomplete="off">
+                        <input type="submit" form="input" value="Search">
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                    <p id="powered">Search powered by Funnelback</p>
+                    <div id="options">
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <span id="shortlist">Shortlist (0)</span>
+                        <i class="fa fa-history" aria-hidden="true"></i>
+                        <span id="history">History</span>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-6 offset-sm-1 col-md-6 offset-md-3 col-lg-6 offset-lg-4">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-globe" aria-hidden="true"></i> All Results</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-file-text-o" aria-hidden="true"></i> Website</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-users" aria-hidden="true"></i> People</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-share-alt" aria-hidden="true"></i> Social Media</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
             <div class="row results">
-                <div class="col-2 offset-2">
+                <div class="col-5 col-sm-4 offset-sm-1 col-md-3 offset-md-2 col-lg-2">
                     <p id="refine">Refine your results</p>
                     <div class="result-type">
                         <p class="refine-heading">AUTHOR</p>
@@ -164,77 +187,95 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div id="picture">
-                        <img src="./images/student-life.jpg" alt="Picture of student life">
-                        <p id="pic-overlay"><a href="#">Discover life at the FBU campus <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
+                <div class="col-7 col-xl-6">
+                    <div class="row">
+                        <div id="picture" class="hidden-md-down">
+                            <img src="./images/student-life.jpg" alt="Picture of student life">
+                            <p id="pic-overlay"><a href="#">Discover life at the FBU campus <i class="fa fa-arrow-right" aria-hidden="true"></i></a></p>
+                        </div>
                     </div>
-                    <span id="amount">1-3 of 573 search results for <strong>campus</strong></span>
-                    <div class="btn-group">
-                        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Sort: Relevance
-                        </button>
-                        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Limit: 3
-                        </button>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-7">
+                            <span id="amount">1-3 of 573 search results for <strong>campus</strong></span>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="btn-group">
+                                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Sort: Relevance
+                                </button>
+                                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Limit: 3
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="search-results">
-                        <div class="result-header">
-                            <p class="title">Downtown Toronto <strong>Campus</strong> (St. George)</p>
-                            <p class="url">https://www.utoronto.ca/university-life/campuses/downtown-toronto</p>
+                    <div class="row">
+                        <div class="col-11">
+                            <div class="search-results">
+                                <div class="result-header">
+                                    <p class="title">Downtown Toronto <strong>Campus</strong> (St. George)</p>
+                                    <p class="url">https://www.utoronto.ca/university-life/campuses/downtown-toronto</p>
+                                </div>
+                                <div class="result-body">
+                                    <p><small class="date">8 Jun 2017:</small> Just beyond the <strong>campus</strong> are the mant events, neighborhoods
+                                    and industries that Toronto has to offer. ...Artist's rendering courtesy of KPMB Architects, 
+                                Michael Van Valkenburgh Associates (MVVA) & Urban Strategies, the project team chosen to</p>
+                                </div>
+                                <div class="result-header">
+                                    <p class="title">MD Program</p>
+                                    <p class="url">md.utoronto.ca/</p>
+                                </div>
+                                <div class="result-body">
+                                    <p><small class="date">8 Jun 2017:</small> Search form. Search. Search. Congratulations class of 17! See a recap of the day.
+                                    MD students and Teachers Reflect on First Year of New Curriculum. U of T Launches Black Student Application Program to 
+                                Strengthen Diversity in Medical School.</p>
+                                </div>
+                                <div class="result-header">
+                                    <p class="title">Quick Facts | University of Toronto</p>
+                                    <p class="url">https://www.utoronto.ca/about-u-of-t/quick-facts</p>
+                                </div>
+                                <div class="result-body">
+                                    <p><small class="date">8 Jun 2017:</small> 8,099 at our St. George <strong>Campus</strong>. 3,513 at our Scarborough <strong>Campus</strong>. 
+                                    ... The Mississauga <strong>campus</strong> can accommodate 1,544 students in residence in 2016-17.</p>
+                                </div>
+                                <nav>
+                                    <ul class="pagination justify-content-center">
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
                         </div>
-                        <div class="result-body">
-                            <p><small class="date">8 Jun 2017:</small> Just beyond the <strong>campus</strong> are the mant events, neighborhoods
-                            and industries that Toronto has to offer. ...Artist's rendering courtesy of KPMB Architects, 
-                        Michael Van Valkenburgh Associates (MVVA) & Urban Strategies, the project team chosen to</p>
-                        </div>
-                        <div class="result-header">
-                            <p class="title">MD Program</p>
-                            <p class="url">md.utoronto.ca/</p>
-                        </div>
-                        <div class="result-body">
-                            <p><small class="date">8 Jun 2017:</small> Search form. Search. Search. Congratulations class of 17! See a recap of the day.
-                            MD students and Teachers Reflect on First Year of New Curriculum. U of T Launches Black Student Application Program to 
-                        Strengthen Diversity in Medical School.</p>
-                        </div>
-                        <div class="result-header">
-                            <p class="title">Quick Facts | University of Toronto</p>
-                            <p class="url">https://www.utoronto.ca/about-u-of-t/quick-facts</p>
-                        </div>
-                        <div class="result-body">
-                            <p><small class="date">8 Jun 2017:</small> 8,099 at our St. George <strong>Campus</strong>. 3,513 at our Scarborough <strong>Campus</strong>. 
-                            ... The Mississauga <strong>campus</strong> can accommodate 1,544 students in residence in 2016-17.</p>
-                        </div>
-                        <nav>
-                            <ul class="pagination justify-content-center">
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                <li class="page-item"><a class="page-link" href="#">Next <i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </nav>
                     </div>
                 </div>
             </div>
-            <div class="row related">
-                <div class="col-8 offset-2 by">
-                    <p id="related-by">Related searches for <strong>campus</strong></p>
+        </div>
+        <div class="container">
+            <div class="row by">
+                <div class="related col-7 offset-3">
                     <div class="row">
-                        <div class="col-4 by-body">
+                        <div class="col-12">
+                            <p id="related-by">Related searches for <strong>campus</strong></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 by-body">
                             <p class="by-title">By type</p>
                             <p class="by-item"><a href="#">Toronto <strong>campus</strong></a></p>
                             <p class="by-item"><a href="#">Mississauga <strong>campus</strong></a></p>
                             <p class="by-item"><a href="#">Scarborough <strong>campus</strong></a></p>
                         </div>
-                        <div class="col-4 by-body">
+                        <div class="col-md-4 by-body">
                             <p class="by-title">By topic</p>
                             <p class="by-item"><a href="#"><strong>campus</strong> Tours</a></p>
                             <p class="by-item"><a href="#"><strong>campus</strong> Community</a></p>
                             <p class="by-item"><a href="#"><strong>campus</strong> Events</a></p>
                         </div>
-                        <div class="col-4 by-body">
+                        <div class="col-md-4 by-body">
                             <p class="by-title">By site</p>
                             <p class="by-item"><a href="#">www.utoronto.ca</a></p>
                             <p class="by-item"><a href="#">md.utoronto.ca</a></p>
@@ -244,17 +285,17 @@
                 </div>
             </div>
             <footer class="row footer">
-                <div class="col-4">
+                <div class="col-4 col-md-2 offset-md-1">
                     <p class="footer-title">Contact</p>
                     <p class="footer-info">Funnelback University<br>1. Funnelback Road<br>Funnelback, FB 12345</p>
                 </div>
-                <div class="col-4">
+                <div class="col-4 col-md-2 offset-md-2">
                         <p class="footer-title">Quick links</p>
                         <p class="footer-info"><a href="#">Copyright and disclaimer</a></p>
                         <p class="footer-info"><a href="#">Privacy statement</a></p>
                         <p class="footer-info"><a href="#">Accessibility information</a></p>
                 </div>
-                <div class="col-4">
+                <div class="col-4 col-md-2 offset-md-2">
                         <p class="footer-title">Connect</p>
                         <i class="fa fa-facebook" aria-hidden="true"><a href="#"></a></i>
                         <i class="fa fa-twitter" aria-hidden="true"><a href="#"></a></i>
