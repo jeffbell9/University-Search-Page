@@ -25,10 +25,6 @@ body {
     font-size: .75em;
 }
 
-/*.bottom {
-    width: 50%;
-}*/
-
 #study {
     height: 60px;
     font-weight: bold;
@@ -63,13 +59,6 @@ body {
     font-size: .9em;
 }
 
-/*.bottom-nav > a {
-    height: 60px;
-    font-weight: bold;
-    line-height: 40px;
-    text-align: center;
-}*/
-
 .university {
     background-color: black;
     height: 60px;
@@ -91,7 +80,6 @@ body {
 #university {
     color: firebrick;
     margin-left: 60px;
-    /*vertical-align: top;*/
     line-height: 10px;
 }
 
@@ -156,7 +144,6 @@ input[type="submit"]:hover {
     float: left;
     color: indianred;
     margin-top: 5px;
-    /*margin-left: 308px;*/
 
 }
 
@@ -164,7 +151,6 @@ input[type="submit"]:hover {
     font-size: .65em;
     float: right;
     margin-top: 5px;
-    /*margin-right: 312px;*/
 }
 
 #shortlist,
